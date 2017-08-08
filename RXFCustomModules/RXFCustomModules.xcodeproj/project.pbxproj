@@ -13,6 +13,7 @@
 		84F404C41F398E7900F8DB3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F404C21F398E7900F8DB3A /* Main.storyboard */; };
 		84F404C61F398E7900F8DB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F404C51F398E7900F8DB3A /* Assets.xcassets */; };
 		84F404C91F398E7900F8DB3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F404C71F398E7900F8DB3A /* LaunchScreen.storyboard */; };
+		84F404D21F399A9900F8DB3A /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F404D11F399A9900F8DB3A /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		84F404C51F398E7900F8DB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F404C81F398E7900F8DB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F404CA1F398E7900F8DB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F404D01F399A9900F8DB3A /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		84F404D11F399A9900F8DB3A /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				84F404C71F398E7900F8DB3A /* LaunchScreen.storyboard */,
 				84F404CA1F398E7900F8DB3A /* Info.plist */,
 				84F404B91F398E7900F8DB3A /* Supporting Files */,
+				84F404D01F399A9900F8DB3A /* TestView.h */,
+				84F404D11F399A9900F8DB3A /* TestView.m */,
 			);
 			path = RXFCustomModules;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F404D21F399A9900F8DB3A /* TestView.m in Sources */,
 				84F404C11F398E7900F8DB3A /* ViewController.m in Sources */,
 				84F404BE1F398E7900F8DB3A /* AppDelegate.m in Sources */,
 				84F404BB1F398E7900F8DB3A /* main.m in Sources */,
@@ -311,6 +317,7 @@
 				84F404CF1F398E7900F8DB3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
